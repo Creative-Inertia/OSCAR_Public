@@ -4,7 +4,7 @@ A secure MCP (Model Context Protocol) server that gives Claude Code full control
 
 ## What Is This?
 
-OSCAR is a build package that creates a two-process bridge between Claude Code and Fusion 360. Feed the master prompt to Claude Code, and it builds the entire system for you — a Fusion add-in and an MCP server that lets Claude design, model, and manipulate 3D geometry through natural conversation.
+OSCAR is a build package that creates a two-process bridge between Claude Code and Fusion 360 on your local computer. Feed the master prompt to Claude Code, and it builds the entire system for you — a Fusion add-in and an MCP server that lets Claude design, model, and manipulate 3D geometry through natural conversation.
 
 ```
 Claude Code ──stdio──> MCP Server (FastMCP, Python)
@@ -18,10 +18,9 @@ Claude Code ──stdio──> MCP Server (FastMCP, Python)
 
 ## Quick Start
 
-1. **Read** `docs/aurafriday-analysis/WHY-DISCONNECT.md` if you have the AuraFriday MCP installed
-2. **Feed** `prompt/MASTER-PROMPT.md` to Claude Code
-3. **Reference** `build-guide/BUILD-GUIDE.md` for the full architecture spec
-4. **Install and test** — follow the steps in the build guide
+1. **Feed** `prompt/MASTER-PROMPT.md` to Claude Code
+2. **Reference** `build-guide/BUILD-GUIDE.md` for the full architecture spec
+3. **Install and test** — follow the steps in the build guide
 
 ```bash
 # Option 1: Feed the master prompt directly
@@ -85,4 +84,4 @@ The system uses two processes bridged by HTTP:
 
 ## License
 
-MIT
+Apache 2.0
