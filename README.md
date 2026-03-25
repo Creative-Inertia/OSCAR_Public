@@ -35,6 +35,7 @@ claude "$(cat prompt/MASTER-PROMPT.md)"
 - Python 3.10+ (system Python, separate from Fusion's bundled Python)
 - `pip install mcp` (for the MCP server component)
 - Claude Code (claude.ai/code)
+- (run this from the terminal window vs of Claude Code Desktop. Use file explorer(PC), navigate to C:\\Oscar_Public (or where ever you copied the files), right click, "open in terminal" click, type "Claude", and then tell it want you want to build.)
 
 ## What's Inside
 
