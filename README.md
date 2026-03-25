@@ -5,6 +5,14 @@ A secure MCP (Model Context Protocol) server that gives Claude Code full control
 ## What Is This?
 
 OSCAR is a build package that creates a two-process bridge between Claude Code and Fusion 360 on your local computer. Feed the master prompt to Claude Code, and it builds the entire system for you — a Fusion add-in and an MCP server that lets Claude design, model, and manipulate 3D geometry through natural conversation.
+The goals are:
+1. AI Assisted Fully Parametric Design
+2. Automatic Parameter Naming
+
+## What This Is Not?
+OSCAR, out of the box, is not an expert CAD designer.  You will be able to watch it learn.   It will be slow at first, while it learns(!) how to do things.   When finishing a session or any time during a session, asked OSCAR if it needs to make any notes on things it has learned.   It will give you the option of saving it privately or publicly.  It makes notes of its learnings, so it's faster and better each time you run it.
+This is NOT for someone that does not know Fusion.
+
 
 ```
 Claude Code ──stdio──> MCP Server (FastMCP, Python)
