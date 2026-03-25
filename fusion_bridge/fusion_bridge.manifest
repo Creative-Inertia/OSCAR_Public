@@ -1,0 +1,12 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "addin",
+    "id": "f1e2d3c4-a5b6-7890-abcd-ef1234567890",
+    "author": "OSCAR",
+    "description": {
+        "": "Secure MCP Bridge for Fusion 360 - allows AI agents to control Fusion via localhost HTTP"
+    },
+    "version": "0.3.0",
+    "runOnStartup": true,
+    "supportedOS": "windows|mac"
+}

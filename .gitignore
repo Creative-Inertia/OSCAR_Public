@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Auth tokens (never commit secrets)
+.fusion_mcp/
+auth_token
+
+# Claude Code local settings
+.claude/
+
+# Private experience files (public ones in experience/ are committed)
+experience/private/
