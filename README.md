@@ -26,7 +26,7 @@ Claude Code ──stdio──> MCP Server (FastMCP, Python)
 
 ## Quick Start
 
-1. **Feed** `prompt/MASTER-PROMPT.md` to Claude Code
+1. **Feed** `prompt/MASTER-PROMPT.md` to Claude Code (create a directory on your C drive "OSCAR_Public", open that directory in terminal, add the repo there, type 'Claude' first, then give it the master-prompt)
 2. **Reference** `build-guide/BUILD-GUIDE.md` for the full architecture spec
 3. **Install and test** — follow the steps in the build guide
 
