@@ -1,4 +1,4 @@
-# OSCAR — Open Source CAD Automation Rig
+# OSCAR — Open Source CAD Automation Claude Code and Autodesk Fusion 360
 
 A secure MCP (Model Context Protocol) server that gives Claude Code full control over your Autodesk Fusion 360 on your computer.
 
