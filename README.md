@@ -1,6 +1,6 @@
 # OSCAR — Open Source CAD Automation Claude Code and Autodesk Fusion 360
 
-A secure MCP (Model Context Protocol) server that gives Claude Code full control over your Autodesk Fusion 360 on your computer.
+A secure MCP (Model Context Protocol) server that gives Claude Code the ability to build parametric, time-line based models in Autodesk Fusion 360 on your computer.
 
 ## What Is This?
 
