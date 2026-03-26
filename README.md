@@ -51,8 +51,7 @@ claude "$(cat prompt/MASTER-PROMPT.md)"
 OSCAR/
 ├── prompt/MASTER-PROMPT.md           # Feed this to Claude Code to build the system
 ├── build-guide/BUILD-GUIDE.md        # Full architecture spec + implementation details
-├── docs/
-│   ├── aurafriday-analysis/          # Security analysis of the old MCP
+├── docs/       
 │   ├── fusion-api/                   # 17 Fusion 360 API reference files
 │   ├── mcp-protocol/                 # 7 MCP protocol reference files
 │   ├── FUSION-BEST-PRACTICES.md      # 72-rule modeling guide
